@@ -1,5 +1,9 @@
 # Como Baixar e Usar Modelo do GitHub no Overleaf e em Outras Ferramentas
 
+Para visualizar o modelo:
+
+https://www.overleaf.com/read/cxzyhsgqctqr#a2a34d
+
 ## 1. Baixar o modelo do GitHub
 Se o modelo estiver no GitHub, siga estas opções:
 
