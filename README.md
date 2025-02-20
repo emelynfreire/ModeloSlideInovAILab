@@ -13,7 +13,8 @@ Se o modelo estiver no GitHub, siga estas opções:
 Se você tem o Git instalado, pode baixar o modelo com este comando no terminal:
 
 No terminal/bash:
-git clone https://github.com/emelynfreire/ModeloSlideInovAILab.git ```
+
+``` git clone https://github.com/emelynfreire/ModeloSlideInovAILab.git ```
 
 ## 2. Abrir no Overleaf
 Após baixar os arquivos, siga estas etapas para usar no Overleaf:
