@@ -1,0 +1,49 @@
+% Pacotes e Definição de Cores
+\usepackage{color}
+\usepackage{graphicx}
+
+% Definição de Cores Convertidas de HEX para RGB
+\DefineNamedColor{named}{azul1}{RGB}{65,30,168}   % #411ea8 - Cor principal
+\DefineNamedColor{named}{azul2}{RGB}{113,141,253} % #718dfd - Destaques
+\DefineNamedColor{named}{azul3}{RGB}{166,159,253} % #a69ffd - Tons suaves
+
+\mode<presentation>
+
+% Cores modernizadas
+\setbeamercolor{author in head/foot}{bg=azul1, fg=white}
+\setbeamercolor{title in head/foot}{bg=azul2, fg=white}
+\setbeamercolor{date in head/foot}{bg=azul3, fg=white}
+
+\setbeamercolor{alerted text}{fg=azul1!80!azul3}
+\setbeamercolor*{palette primary}{fg=white,bg=azul2}
+\setbeamercolor*{palette secondary}{fg=azul3,bg=white}
+\setbeamercolor*{palette tertiary}{fg=white,bg=azul1}
+\setbeamercolor*{palette quaternary}{fg=white,bg=azul3}
+\setbeamercolor*{structure}{fg=azul1,bg=white}
+\setbeamercolor{frametitle}{fg=white,bg=azul1!90!black}
+
+% Template do rodapé modernizado
+\defbeamertemplate*{footline}{ufrn theme}
+{%
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.3\paperwidth,ht=2.5ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		
+		\begin{beamercolorbox}[wd=.4\paperwidth,ht=2.5ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		
+		\begin{beamercolorbox}[wd=.3\paperwidth,ht=2.5ex,dp=1ex,right]{date in head/foot}%
+			\usebeamerfont{date in head/foot}\insertshortdate{} \hspace*{1em} 
+			\insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+		\end{beamercolorbox}%
+	}%
+	\vskip0pt%
+}
+
+% Background atualizado
+\setbeamertemplate{background}{
+	\includegraphics[width=\paperwidth,height=\paperheight]{figuras/background.pdf}
+}
